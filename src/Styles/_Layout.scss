@@ -1,0 +1,41 @@
+.Layout{
+
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+
+    min-height: 30vh;
+
+    .component_image{
+        img{
+            width: 100%;
+        }
+    }
+}
+.Data_container{
+    display: flex;
+    flex-direction: column;
+  
+    .Data{
+        padding-top: 2rem;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        img{
+            width: 1rem;
+            
+         
+            
+        }
+    
+        p{
+             font-family: sans-serif;
+             font-weight: bolder;
+             font-size: 1rem;
+        padding-left: 1rem;
+        width: 90%;
+    
+            // font-size: ;
+        }
+    }
+}

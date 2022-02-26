@@ -1,0 +1,68 @@
+.hero{
+    min-height: 120vh;
+    z-index: -1 ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+//  background-color: yellowgreen;
+}
+.hero_content{
+    padding-top: 10rem;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .hero_Para{
+        text-align: center;
+        color: white;
+       
+        font-family: sans-serif;
+        h2{
+            font-size: 3rem;
+        }
+        h3{
+            font-size: 2rem;
+            padding-bottom: 2rem;
+        }
+    }
+}
+.hero_btn {
+    display:  flex;
+  
+    button{
+        padding: 14px 2rem;
+        font-weight: bold;
+        &:first-child {
+            color: white;
+            margin-right: 1rem;
+             background-color: rgb(173, 228, 90);
+        }
+    }
+ }
+ .sahi {
+     text-align: center;
+    .banner_img{
+       margin-top: 4rem;
+        width: 90%;
+        height: 50%;
+    }
+ }
+
+ .works {
+     padding-top: 5rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     h1{
+         font-family: sans-serif;
+         padding-bottom: 10px;
+     }
+     .works_img{
+         display: flex;
+         justify-content: space-evenly;
+     }
+ }

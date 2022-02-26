@@ -1,0 +1,39 @@
+header{
+    min-height: 10vh;
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+  
+    nav{
+        background-color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        .logo{
+            display: flex;
+            img{
+                width: 3rem;
+                border-radius: 50%;
+            }
+            span{
+                padding-left: 1rem;
+                padding-top: 13px ;
+            }
+        }
+        .Nav_links{
+            display: flex;
+    
+            ul{
+                list-style: none;
+                display: flex;
+                align-items: center;
+                // justify-content: center;
+                li{
+                    cursor: pointer;
+                    margin-right: 20px;
+                }
+
+            }
+        }
+    }
+}

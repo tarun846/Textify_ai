@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  min-height: 10vh;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+}
+
+header nav {
+  background-color: white;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .logo img {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+header nav .logo span {
+  padding-left: 1rem;
+  padding-top: 13px;
+}
+
+header nav .Nav_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .Nav_links ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .Nav_links ul li {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.hero {
+  min-height: 120vh;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+.hero_content {
+  padding-top: 10rem;
+  min-height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero_content .hero_Para {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.hero_content .hero_Para h2 {
+  font-size: 3rem;
+}
+
+.hero_content .hero_Para h3 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.hero_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero_btn button {
+  padding: 14px 2rem;
+  font-weight: bold;
+}
+
+.hero_btn button:first-child {
+  color: white;
+  margin-right: 1rem;
+  background-color: #ade45a;
+}
+
+.sahi {
+  text-align: center;
+}
+
+.sahi .banner_img {
+  margin-top: 4rem;
+  width: 90%;
+  height: 50%;
+}
+
+.works {
+  padding-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.works h1 {
+  font-family: sans-serif;
+  padding-bottom: 10px;
+}
+
+.works .works_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.Layout {
+  padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 30vh;
+}
+
+.Layout .component_image img {
+  width: 100%;
+}
+
+.Data_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Data_container .Data {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 1rem;
+}
+
+.Data_container .Data img {
+  width: 1rem;
+}
+
+.Data_container .Data p {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding-left: 1rem;
+  width: 90%;
+}
+
+.Component_btn {
+  font-family: sans-serif;
+  padding: 5px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: rgba(0, 0, 0, 0.1);
+  background-color: #e7e7e7;
+}
+
+.component_image img {
+  width: 70%;
+}
+/*# sourceMappingURL=Styles.css.map */
