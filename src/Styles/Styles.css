@@ -210,7 +210,8 @@ header nav .Nav_links ul li {
 }
 
 .font {
-  font-size: 4rem;
+  min-height: 10vh;
+  font-size: 2rem;
 }
 
 .Component_btn {
