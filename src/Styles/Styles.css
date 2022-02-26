@@ -209,6 +209,10 @@ header nav .Nav_links ul li {
   width: 90%;
 }
 
+.font {
+  font-size: 4rem;
+}
+
 .Component_btn {
   font-family: sans-serif;
   padding: 5px 15px;

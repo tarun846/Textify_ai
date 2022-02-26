@@ -14,7 +14,11 @@ function App() {
  <Home/>
  <Layout layout = 'first' img = {Model1}  data = {datas} />  
  <Layout layout = 'second' img = { Model2}  data = {datas} />  
-
+   <div className = 'font' > 
+    Textify .ai is under Construction 
+    <br/>
+    Chirag Sir please reply 
+    </div>
    </>
     
   )
